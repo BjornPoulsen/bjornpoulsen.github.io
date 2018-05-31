@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<style type="text/css">
+		#container {
+			width: 90%;
+			margin:auto;
+			font-family: arial;
+		}
+		.topnav {
+			text-align: right;
+			overflow: hidden;
+		}
+		.topnav h4 {
+			color:black;
+			font-weight: 200;
+		}
+		.header {
+			text-align: center;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+		.header h1 {
+			font-weight: 200;
+			font-size: 2.4em;
+		}
+
+		
+		form {
+			text-align: center;
+			
+		}
+		input, select{
+			width: 30%;
+			padding: 10px;
+		}
+		input[type=submit] {
+			width: 30%;
+			padding: 10px;
+			background-color: #129D5F;
+			color: white;
+			cursor: pointer;
+		}
+
+		p {
+			font-size: 12px;
+			color: #A3A5A9;
+		}
+		
+
+		
+
+	</style>
+</head>
+<div id="container">
+  <body>
+
+  	<div class="topnav">
+		<a href="index.html"><h4>Go Back Home</h4></a>
+	</div>
+
+	<div class="header">
+		<h1>Sign Up For FREE</h1>
+	</div>
+	<div class="form">
+		<form>
+			
+			<input type="text" name="firstname" placeholder="First Name..."><br><br>
+			<input type="text" name="lastname" placeholder="Last Name"><br><br>
+			<input type="text" name="businessname" placeholder="Business Name"><br><br>
+			<input type="date" name="birthday"><br><br>
+			<input type="Email" name="Email" placeholder="Email"><br><br>
+			<input type="Password" name="password" placeholder="Password"><br><br>
+
+			<select>
+			<option value="Select" name="Select">Select your country</option>
+			<option value="Denmark" name="Denmark">Denmark</option>
+			<option value="Germany" name="Germany">Germany</option>
+			<option value="Netherlands" name="Netherlands">Netherlands</option>
+			</select>
+			<br>
+
+			<select>
+			<option value="Select" name="Select">Select your currency</option>
+			<option value="kroner" name="Kroner">Kroner</option>
+			<option value="dmark" name="dmark">D-Mark</option>
+			<option value="euro" name="euro">Euro</option>
+			</select>
+			<br><br>
+			<input type="submit" value="Sign Up" name="signup"><br>
+			
+			<input type="checkbox" name="newsletter"><p>I wish to receive monthly newsletters</p>
+	
+			<p>By signing up, you agree to our <a href="https://www.routehappy.com/terms" target="_blank"> Terms of Use</a>" and <a href="https://termly.io/wp-content/uploads/2017/06/Free-GDPR-Privacy-Policy-Template.jpg" target="_blank"> Privacy Policy</a></p>
+		</form>
+	</div>
+  </body>
+</div>
+</html>
